@@ -1,11 +1,11 @@
-# 💸 FundMe Smart Contract
+# FundMe Smart Contract
 
 A decentralized crowdfunding smart contract built with **Solidity**, **Foundry**, and **Chainlink Oracles**.  
 This project allows users to fund the contract with ETH, enforces a **minimum USD funding requirement**, and ensures that **only the contract owner can withdraw funds**.
 
 ---
 
-## 📖 About
+## About
 
 The **FundMe** contract enables:
 
@@ -18,26 +18,26 @@ The **FundMe** contract enables:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- ⚡ [**Solidity**](https://soliditylang.org/) — Smart contract language
-- 🔨 [**Foundry**](https://book.getfoundry.sh/) — Development & testing framework
-- 🔗 [**Chainlink**](https://chain.link/) — Decentralized oracle network
-- 🧪 [**Forge Std**](https://book.getfoundry.sh/forge/standard-library) — Utilities for testing
-
----
-
-## ⚡ Features
-
-- 💵 **Minimum USD funding requirement** (via Chainlink Price Feeds).
-- 👥 **Multiple funder support** with per-user tracking.
-- 🔒 **Secure withdrawals** restricted to the owner.
-- ⛽ **Gas-efficient withdraw function**.
-- 🧪 **Comprehensive Foundry test suite**.
+- [**Solidity**](https://soliditylang.org/) — Smart contract language
+- [**Foundry**](https://book.getfoundry.sh/) — Development & testing framework
+- [**Chainlink**](https://chain.link/) — Decentralized oracle network
+- [**Forge Std**](https://book.getfoundry.sh/forge/standard-library) — Utilities for testing
 
 ---
 
-## 🚀 Getting Started
+## Features
+
+- **Minimum USD funding requirement** (via Chainlink Price Feeds).
+- **Multiple funder support** with per-user tracking.
+- **Secure withdrawals** restricted to the owner.
+- **Gas-efficient withdraw function**.
+- **Comprehensive Foundry test suite**.
+
+---
+
+## Getting Started
 
 ### 1️⃣ Install Foundry
 
@@ -79,7 +79,7 @@ make deploy-sepolia
 
 ---
 
-## 🧪 Tests
+## Tests
 
 The test suite validates:
 
@@ -96,7 +96,7 @@ forge test -vvv
 
 ---
 
-## 📊 Example Test Output
+## Example Test Output
 
 Ran 12 tests for test/FundMeTest.t.sol:FundMeTest
 [PASS] testMinimumDollarIsFive() (gas: 2561)
@@ -108,10 +108,10 @@ Suite result: ok. 12 passed; 0 failed; 0 skipped; finished in 6.21ms
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-🌟 Built with ❤️ using Solidity, Foundry & Chainlink
+Built with using Solidity, Foundry & Chainlink
