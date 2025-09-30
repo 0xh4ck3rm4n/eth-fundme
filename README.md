@@ -39,44 +39,41 @@ The **FundMe** contract enables:
 
 ## Getting Started
 
-### 1️⃣ Install Foundry
-
+### 1️⃣ Initialize Project
+```
 curl -L https://foundry.paradigm.xyz | bash
 foundryup
-
+```
 ### 2️⃣ Clone Repository
-
-git clone https://github.com/<your-username>/fundme-contract.git
-cd fundme-contract
-
+```
+git clone https://github.com/0xh4ck3rm4n/eth-fundme.git
+cd eth-fundme
+```
 ### 3️⃣ Install Dependencies
-
-forge install
-
+```
+make install
+```
 ### 4️⃣ Build Contracts
-
-forge build
-
+```
+make build
+```
 ### 5️⃣ Run Tests
-
-forge test -vvv
-
-or using the **Makefile**:
-
-make test
+```
+make test -vvv
+```
 
 ### 6️⃣ Configure Environment
 
 Create a `.env` file in the root directory:
-
+```
 SEPOLIA_RPC_URL=<your_sepolia_rpc_url>
 PRIVATE_KEY=<your_private_key>
 ETHERSCAN_API_KEY=<your_etherscan_api_key>
-
+```
 ### 7️⃣ Deploy to Sepolia
-
+```
 make deploy-sepolia
-
+```
 ---
 
 ## Tests
